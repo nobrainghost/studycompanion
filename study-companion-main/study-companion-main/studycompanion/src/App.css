@@ -1,0 +1,93 @@
+.body{
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.display-window{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}   
+.right-window{
+    background-color: #2e2d2d;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #0f0e0e;
+}
+.left-sidebar{
+    background-color:rgb(48, 48, 48);
+    width: 200px;
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.course-holder{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    margin-left:0;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.coursenameholder{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border:1px solid #0f0e0e;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* occupy the remaining space in the div  */
+.percentageholder{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: rgb(0, 148, 67);
+    font-weight: normal;
+    border:1px solid #0f0e0e;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    
+}
+.namebox{
+    width: 100%;
+    height: 40%;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom:20px;
+    margin-left: 5px;
+}
+.subtopics{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    font-size: 5px;
+}
